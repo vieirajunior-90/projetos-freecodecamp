@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freecodecamp.org challenge. Making a landing page - Original Trombones">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Original Trombones</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" aria-label="primary">
+            <div>
+                <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" width="300px" height="auto">
+            </div>
+            <div id="nav-bar-links">
+                <ul class="menu-links">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#howitworks">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="container">
+        <main>
+            <div id="title">
+                <h1>Handcrafted, home-made masterpieces
+                </h1>
+                <form id="form" action="https://www.freecodecamp.com/email-enviar">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email adress" required aria-required="true"><br>
+                    <input type="submit" id="submit" value="Get Started">
+                </form>
+            </div>
+        </main>
+
+        <section id="features">
+            <div class="feature-grid">
+                <img src="./img/flame.png" alt="flame" width="75px" height="75px">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="feature-grid">
+                <img src="./img/van.png" alt="van" width="75px" height="75px">
+                <h2>Fast Shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="feature-grid">
+                <img src="./img/full-battery.png" alt="battery" width="75px" height="75px">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </section>
+
+        <section id="howitworks">
+            <div class="video-content">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="pricing">
+            <div class="pricing-box">
+                <div class="pricing-box-title">
+                    <h3>TENOR TRAMBONE</h3>
+                </div>
+                <span>$600</span>
+                <p>Learn the basics</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum</p>
+                <a class="btn-buy" href="#">SELECT</a>
+            </div>
+            <div class="pricing-box">
+                <div class="pricing-box-title">
+                    <h3>BASS TRAMBONE</h3>
+                </div>
+                <span>$900</span>
+                <p>Become a pro</p>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum</p>
+                <a class="btn-buy" href="#">SELECT</a>
+            </div>
+            <div class="pricing-box">
+                <div class="pricing-box-title">
+                    <h3>VALVE TRAMBONE</h3>
+                </div>
+                <span>$1200</span>
+                <p>Plays similar to a Trumpet</p>
+                <p>Great for Jazz Bands</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum</p>
+                <a class="btn-buy" href="#">SELECT</a>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <ul class="footer-ptc">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Contact</li>
+            </ul>
+            <p>&copy; 2020 Original Trombones</p>
+        </footer>
+    </div>
+</body>
+</html>
