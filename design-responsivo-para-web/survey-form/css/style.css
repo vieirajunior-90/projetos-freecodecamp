@@ -85,3 +85,25 @@ body{
     border-radius: 5px;
     border: 0;
 }
+
+@media (max-width: 750px){
+    #title{
+        font-size: 1.5rem;
+    }
+    
+    #description{
+        font-size: 0.875rem;
+    }
+
+    .text-box{
+        font-size: 0.875rem;
+    }
+
+    .box-input{
+        font-size: 0.875rem;
+    }
+    
+    .font-input{
+        font-size: 0.875rem;
+    }
+}   
