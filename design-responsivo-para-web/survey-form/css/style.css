@@ -76,6 +76,7 @@ body{
 
 .box-textarea{
     height: 100px;
+    font-family: inherit;
 }
 
 #submit{
