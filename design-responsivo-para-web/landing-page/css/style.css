@@ -63,8 +63,7 @@ body{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    margin: 10rem auto 0 auto;
-    
+    margin: 10rem auto 0 auto; 
 }
 
 #form{
@@ -75,9 +74,19 @@ body{
     
 }
 
-#title > h1{
+.title-h1 > h1{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    display: inline-block;
+    
+}
+
+.title-h1 > span{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: bold;
 }
 
 #email{
@@ -264,35 +273,55 @@ body{
 }
 
 @media (max-width: 540px){
-    #title > h1{
-        font-size: 1rem;
+    .title-h1 > span{
+        display: block;
+
+    }
+
+    .title-h1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #email{
-        font-size: 0.875rem;
+        font-size: 1rem;
         padding: 0.25rem;
     }
     
     #submit{
         padding: 5px;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.875rem;
+        font-size: 1rem;
         font-weight: 700;
     }
     
     .feature-grid{
-        gap: 5px 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        align-items: end;
+        gap: 10px;
     }
     .feature-grid > h2{
-        font-size: 1.1rem;
+        font-size: 1.3rem;
+        grid-column: 2;
     }
 
     .feature-grid > p{
-        font-size: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    .feature-grid > img{
+        display: none;
     }
 
     .feature-grid > img{
         width: 50px;
         height: 50px;
+    }
+
+    #howitworks{
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -303,10 +332,13 @@ body{
 }
 
 @media (max-width: 380px){
-    #title > h1{
-        font-size: 0.875rem;
+    .title-h1 > h1{
+        font-size: 1.3rem;
     }
 
+    .title-h1 > span{
+        font-size: 1.3rem;
+    }
     .menu-links{
         font-size: 0.875rem;
     }
