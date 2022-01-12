@@ -7,3 +7,4 @@ Abaixo estão os links com os desafios concluídos, estou usando o GitHub Pages 
 - [Tribute Page](https://vieirajunior-90.github.io/projetos-freecodecamp/design-responsivo-para-web/tribute-page/index.html) 
 - [Survey Form](https://vieirajunior-90.github.io/projetos-freecodecamp/design-responsivo-para-web/survey-form/index.html)
 - [Landing Page](https://vieirajunior-90.github.io/projetos-freecodecamp/design-responsivo-para-web/landing-page/index.html)
+- [Technical Documentation Page](https://vieirajunior-90.github.io/projetos-freecodecamp/design-responsivo-para-web/technical-documentation-page/index.html)
