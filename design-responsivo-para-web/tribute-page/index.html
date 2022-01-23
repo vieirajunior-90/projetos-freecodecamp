@@ -12,24 +12,24 @@
 <body>
     <span class="padding-white"></span>
     <div class="bg-white">
-        <main id="main">
+        <main id="main" >
             <header id="title">
-                <h1>Dr. Norman Borlaug</h1>
-                <p>The man who saved a billion lives</p>
+                <h1 class="fadeInLeft" data-anime="200">Dr. Norman Borlaug</h1>
+                <p class="fadeInLeft" data-anime="400">The man who saved a billion lives</p>
             </header>
             <div id="img-div">
                 <figure>
-                    <img id="image" src="./img/tribute-page-main-image.jpg" alt="Tribute Photo">
-                    <figcaption id="img-caption">
+                    <img id="image" class="fadeInLeft" data-anime="600" src="./img/tribute-page-main-image.jpg" alt="Tribute Photo">
+                    <figcaption id="img-caption" class="fadeInLeft" data-anime="800">
                         Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
                     </figcaption>
                 </figure>
             </div>
             <div id="timeline">
                 <article id="tribute-info">
-                    <h2 class="text">Here's a time line of Dr. Borlaug's life:</h2>
+                    <h2 class="text" class="fadeInLeft" data-anime="1000">Here's a time line of Dr. Borlaug's life:</h2>
                 </article>
-                <ul id="years">
+                <ul id="years" class="fadeInLeft" data-anime="400">
                     <li><strong>1914</strong> - Born in Cresco, Iowa</li>
                     <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li>
                     <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li>
@@ -57,5 +57,7 @@
             <h2 class="text text-padding">If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</h2>
         </main>
     </div>
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

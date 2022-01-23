@@ -187,6 +187,6 @@ aside{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        word-break: break-all;
+        word-break: break-word;
     }
 }
